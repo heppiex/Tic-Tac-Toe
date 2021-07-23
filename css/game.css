@@ -1,0 +1,32 @@
+.game {
+  width: 600px;
+  height: 600px;
+  border-radius: 1em;
+  background-color: var(--color-main);
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.box {
+  font-size: 160px;
+  margin: 0;
+  height: 200px;
+  cursor: pointer;
+}
+
+.border-right {
+  border-right: 2px solid var(--color-border);
+}
+
+.border-bottom {
+  border-bottom: 2px solid var(--color-border);
+}
+
+.unactive {
+  cursor: default;
+}
